@@ -14,12 +14,18 @@
 
 // })
 
-const btn=document.getElementById("redirectButton");
-btn.addEventListener("click",function () { 
-  document.getElementById('naimul').scrollIntoView({behavior:'smooth'})
+// const btn=document.getElementById("redirectButton");
+// btn.addEventListener("click",function () { 
+//   document.getElementById('naimul').scrollIntoView({behavior:'smooth'})
   
-})
+// })
 
+const btn=document.getElementById('redirectButton');
+btn.addEventListener('click',function(){
+  document.getElementById("lover").scrollIntoView({
+    behavior:'smooth'
+  })
+})
 // get all the button through the parent
 const btnCollection = document.getElementsByClassName('click-btn');
 let seat = 20;
