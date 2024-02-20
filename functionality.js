@@ -1,12 +1,24 @@
 // Redirect functionality when someone click on the button
 
-document.getElementById("redirectButton").addEventListener("click", function () {
-  document.getElementById('content').scrollIntoView({
-    behavior: 'smooth'
-  })
+// document.getElementById("redirectButton").addEventListener("click", function () {
+//   document.getElementById('content').scrollIntoView({
+//     behavior: 'smooth'
+//   })
 
+// })
+// const btn=document.getElementById('redirectButton');
+// btn.addEventListener('click',function(){
+// document.getElementById('shanto').scrollIntoView({
+//   behavior:'smooth'
+// })
+
+// })
+
+const btn=document.getElementById("redirectButton");
+btn.addEventListener("click",function () { 
+  document.getElementById('naimul').scrollIntoView({behavior:'smooth'})
+  
 })
-
 
 // get all the button through the parent
 const btnCollection = document.getElementsByClassName('click-btn');
