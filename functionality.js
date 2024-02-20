@@ -5,7 +5,7 @@ document.getElementById("redirectButton").addEventListener("click", function () 
     behavior: 'smooth'
   })
 
-
+})
 
 
 // get all the button through the parent
